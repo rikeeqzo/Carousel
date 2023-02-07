@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <!--A144-->
+
 <head>
   <!-- Meta tags Obrigatórias -->
   <meta charset="utf-8">
@@ -72,7 +73,15 @@
         </div><!--/Carousel-->
 
         <h1>Slider com controles/indicadores</h1>
-        <div id="carousel-controles" class="carousel slide" data-ride="carousel"><!--Carousel-->
+        <div id="carousel-indicadores" class="carousel slide" data-ride="carousel"><!--Carousel-->
+
+          <!-- Indicadores -->
+          <ol class="carousel-indicators">
+            
+            <li data-target="#carousel-indicadores" data-slide-to></li>
+
+          </ol>
+
           <div class="carousel-inner"><!--Inner-->
 
             <div class="carousel-item active">
@@ -90,15 +99,15 @@
           </div><!--/Inner-->
 
           <!-- Controles -->
-          <a href="#carousel-controles" class="carousel-control-prev" data-slide="prev">
+          <a href="#carousel-indicadores" class="carousel-control-prev" data-slide="prev">
             <span class="carousel-control-prev-icon"></span>
           </a>
 
-          <a href="#carousel-controles" class="carousel-control-next" data-slide="next">
+          <a href="#carousel-indicadores" class="carousel-control-next" data-slide="next">
             <span class="carousel-control-next-icon"></span>
           </a>
 
-        </div><!--/Carousel--> 
+        </div><!--/Carousel-->
 
         <h1>Slider com legendas</h1>
 
